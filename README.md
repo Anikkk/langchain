@@ -13,7 +13,7 @@ A LangChain-based intelligent agent system that helps users compare technology p
 - [Testing](#testing)
 - [Technical Challenges](#technical-challenges)
 - [Potential Improvements](#potential-improvements)
-- [Contributing](#contributing)
+
 
 ## Overview
 
@@ -449,27 +449,6 @@ The assistant provides structured responses with:
 3. User Sentiment
 4. Recommendation
 
-## Testing
-
-### Running Tests
-
-```
-python test_agent.py
-```
-
-The test script verifies:
-- Product comparison functionality
-- Price calculation accuracy
-- Review analysis capabilities
-- Edge case handling
-
-### Test Coverage
-
-The testing framework covers:
-- Basic functionality tests
-- Edge cases (empty reviews, invalid calculations)
-- Response format verification
-- Tool execution accuracy
 
 ## Technical Challenges
 
@@ -548,23 +527,6 @@ Implement more sophisticated memory strategies:
 - Summarization of previous interactions
 - Contextual retrieval based on current query
 
-### 8. Comprehensive Testing Framework
-Develop a robust testing framework:
-- Automated regression testing
-- Performance benchmarking
-- User satisfaction metrics
-- A/B testing of different prompt strategies
 
-## Contributing
-
-Contributions to the Product Research Assistant are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch
-3. Implement your changes
-4. Add tests for new functionality
-5. Submit a pull request
-
-Please ensure your code follows the project's style guidelines and passes all tests.
 
 
